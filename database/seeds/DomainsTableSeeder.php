@@ -15,27 +15,7 @@ class DomainsTableSeeder extends Seeder
         Domain::truncate();
 
         Domain::create([
-            'name' => 'allthebeautifulplaces.info',
-        ]);
-
-        Domain::create([
-            'name' => 'nxnews.info',
-        ]);
-
-        Domain::create([
-            'name' => 'mxnews.info',
-        ]);
-
-        Domain::create([
-            'name' => 'toptennews.info',
-        ]);
-
-        Domain::create([
-            'name' => 'ttvietnet.info',
-        ]);
-
-        Domain::create([
-            'name' => 'mnltime.info',
+            'name' => 'contentkeoview.info',
         ]);
     }
 }
